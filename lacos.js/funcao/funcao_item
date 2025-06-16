@@ -1,0 +1,7 @@
+function adicionarItem(lista){
+    lista.push("Novo item");
+}
+
+let itens = ["Item1", "Item2"];
+adicionarItem(itens);
+console.log(itens); ["Item1", "Item2", "Novo item"]
